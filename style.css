@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Fraunces:opsz,wght@9..144,700&display=swap');
+body{
+    background: url("https://images.pexels.com/photos/5129486/pexels-photo-5129486.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.main-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.calc{
+    border-radius: 1rem;
+    width: 50rem;
+    height: 50rem;
+    /* background:rgb(46, 57, 66); */
+    background: url(pexels-photo-7599717.jpeg);
+    background-size: cover;
+    background-color: black;
+
+}
+#output{
+    height: 5rem;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    pointer-events: none;
+    font-size: 3rem;
+    background-color: rgba(84, 97, 88, 0.979);
+    font-family: 'DotGothic16', sans-serif;
+
+    
+}
+.btn{
+    width: 9rem;
+    height: 5rem;
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 3rem;
+    
+}
+.left{
+    margin-top:4% ;
+    margin-left: 12%;
+}
+.row{
+    margin-left: 12%;
+    margin-top: 4%;
+}
